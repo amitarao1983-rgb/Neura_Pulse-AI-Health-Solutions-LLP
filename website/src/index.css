@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-950 text-slate-300 antialiased;
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: 'Fraunces', ui-serif, Georgia, serif;
+  }
+}
